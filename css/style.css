@@ -1,0 +1,124 @@
+
+
+body{
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+        
+}
+
+.back{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: black;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.size{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+.size2{
+    width: 300px;
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+h5{
+    margin-top: 7px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+   
+}
+h6{
+    margin-top: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: whitesmoke solid 15px;
+}
+.icone{
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 15px;
+}
+
+.texto{
+    margin-top: 8px;
+    margin-left: 5px;
+    font-family: sans-serif;
+    color: rgb(184, 184, 184);
+}
+
+.bg-footer{
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    background-size: cover;
+}
+
+#endereço{
+    margin-left: 30px;
+}
+button[name="drop"]{
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+  }
+  .drop-content{
+    display: none;
+    background-color: grey;
+    position: absolute;
+}
+.drop-content a{
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  .menu-drop:hover .drop-content{
+    display: block;
+  }
+  .menu-drop:hover button[name="drop"]{
+    background-color: grey
+  }
+
+.drop-content a:hover{
+    background-color: #b3aeae;
+  }
+  .menu-drop{
+    position: relative;
+  }
+
+.grid1{
+    
+    margin-top: 100px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.formulario{
+    margin-top: 50px;
+    background: gray;
+    border: solid black 5px;
+}
